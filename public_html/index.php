@@ -1,7 +1,18 @@
 <?php
 
-include "src/ServiceInterface.php";
-include "src/TariffInterface.php";
+include "../src/TariffInterface.php";
+include "../src/ServiceInterface.php";
+include "../src/TariffAbstract.php";
+include "../src/TariffBasic.php";
+include "../src/ServiceGPS.php";
+include "../src/ServiceDriver.php";
+include "../src/TariffHour.php";
+
+/** @var TariffInterface $tariff */
+$tariff = new TariffHour(5, 61);
+//$tariff->addService(new ServiceGPS(15));
+//$tariff->addService(new ServiceDriver(100));
+echo $tariff->countPrice();
 
 
 /*Представьте, что вы создаете сайт для компании сдающих автомобили поминутно (каршеринг). У компании есть ряд тарифов.
@@ -25,7 +36,7 @@ include "src/TariffInterface.php";
 Дополнительные услуги (трейты):
 
 Gps в салон - 15 рублей в час, минимум 1 час. Округление в большую сторону
-Дополнительный водитель - 100 рублей единоразово
+Дополнительный водитель - 100 рублей единоразово44
 Ожидаемая реализация:
 
 Создать интерфейс, который будет содержать описание метода подсчета цены, метода добавления услуги (принимает на вход интерфейс услуги)
@@ -34,7 +45,6 @@ Gps в салон - 15 рублей в час, минимум 1 час. Окру
 Все тарифы должны наследоваться от абстрактного тарифа из п.2
 Описать 2 услуги реализовав интерфейс услуг
 Пример вызова:
-
 1. Тариф базовый(5 км, 1 час)
 - добавить услугу GPS
 
