@@ -8,7 +8,7 @@ include "../src/ServiceGPS.php";
 include "../src/ServiceDriver.php";
 include "../src/TariffHour.php";
 
-/** @var TariffInterface $tariff */
+/** @var TariffInterface $tariff */  //говорим, что это тариф интерфейс
 $tariff = new TariffHour(5, 61);
 //$tariff->addService(new ServiceGPS(15));
 //$tariff->addService(new ServiceDriver(100));
