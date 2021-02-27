@@ -1,19 +1,19 @@
 <?php
 
-include "../src/TariffInterface.php";
-include "../src/ServiceInterface.php";
-include "../src/TariffAbstract.php";
-include "../src/TariffBasic.php";
-include "../src/ServiceGPS.php";
-include "../src/ServiceDriver.php";
-include "../src/TariffHour.php";
+//include "../src/TariffInterface.php";
+//include "../src/ServiceInterface.php";
+//include "../src/TariffAbstract.php";
+//include "../src/TariffBasic.php";
+//include "../src/ServiceGPS.php";
+//include "../src/ServiceDriver.php";
+//include "../src/TariffHour.php";
 
-/** @var TariffInterface $tariff */  //говорим, что это тариф интерфейс
-$tariff = new TariffHour(5, 61);
+///** @var TariffInterface $tariff */  //говорим, что это тариф интерфейс
+//$tariff = new TariffHour(5, 61);
 //$tariff->addService(new ServiceGPS(15));
 //$tariff->addService(new ServiceDriver(100));
-echo $tariff->countPrice();
-
+//echo $tariff->countPrice();
+echo 3%60;
 
 /*Представьте, что вы создаете сайт для компании сдающих автомобили поминутно (каршеринг). У компании есть ряд тарифов.
  Вам необходимо реализовать каждый тариф в своем классе. У каждого тарифа две основные характеристики - цена за 1 км,

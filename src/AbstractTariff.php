@@ -9,6 +9,12 @@ class AbstractTariff implements TariffInterface
     /** @var ServiceInterface[] */
     protected $services = [];
 
+    public function __construct($minutes, $distance)
+    {
+        $this->minutes = $minutes;
+        $this->distance = $distance;
+    }
+
     public function countPrice(): int
     {
         $price = $this->minutes * $this->pricePerMinute + $this->distance * $this->pricePerKm;
@@ -19,18 +25,18 @@ class AbstractTariff implements TariffInterface
         }
     }
 
-    public function addService()
+    public function addService($service)
     {
-        // TODO: Implement addService() method.
+        array_push($this->services, $service);
     }
 
     public function getDistance(): int
     {
-        // TODO: Implement getDistance() method.
+        return $this->distance;
     }
 
     public function getMinutes(): int
     {
-        // TODO: Implement getMinutes() method.
+        return $this->minutes;
     }
 }
