@@ -1,7 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-=======
 include "../src/TariffInterface.php";
 include "../src/ServiceInterface.php";
 include "../src/TariffAbstract.php";
@@ -36,4 +34,3 @@ Gps в салон - 15 рублей в час, минимум 1 час. Окру
 1. Тариф базовый(5 км, 1 час)
 - добавить услугу GPS
 = 5км * 10 руб / км + 60 мин * 3 руб / мин + 15 руб / час * 1 час = 50 + 180 + 15 = 245*/
->>>>>>> eb2591c1f5362625c4fc52f5d49956f5a146d607
