@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac436a7d-dc87-4bfb-b568-435f73d36ce8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AbstractTariff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServiceDriver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServiceGPS.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TariffAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TariffBasic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TariffHour.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TariffInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TariffInterface.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="tariffs" id="2f788c1c-4c73-4491-8ac0-8c047384be17" name="tariffs" />
+      <server host="localhost" id="5be4dfce-52d6-4ace-b1b7-2212b820f903" name="localhost">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="tariffs" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" />
+  <component name="ProjectId" id="1oCmnNLeHGjBUgqWQ5crzn8GH81" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac436a7d-dc87-4bfb-b568-435f73d36ce8" name="Default Changelist" comment="" />
+      <created>1612799114042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612799114042</updated>
+      <workItem from="1612799139420" duration="413000" />
+      <workItem from="1612966830467" duration="1707000" />
+      <workItem from="1612968623049" duration="1663000" />
+      <workItem from="1612973957953" duration="2571000" />
+      <workItem from="1612977224695" duration="1422000" />
+      <workItem from="1612979705923" duration="579000" />
+      <workItem from="1613140697044" duration="1716000" />
+      <workItem from="1613142758289" duration="1275000" />
+      <workItem from="1613144850369" duration="991000" />
+      <workItem from="1613146628885" duration="882000" />
+      <workItem from="1613150854602" duration="665000" />
+      <workItem from="1614011719272" duration="1706000" />
+      <workItem from="1614013685852" duration="1672000" />
+      <workItem from="1614015609389" duration="1164000" />
+      <workItem from="1614021990371" duration="131000" />
+      <workItem from="1614062819372" duration="427000" />
+      <workItem from="1614076830157" duration="1393000" />
+      <workItem from="1614078610814" duration="830000" />
+      <workItem from="1614098060656" duration="1635000" />
+      <workItem from="1614171440711" duration="421000" />
+      <workItem from="1614178019552" duration="981000" />
+      <workItem from="1614179990217" duration="1182000" />
+      <workItem from="1614182666758" duration="907000" />
+      <workItem from="1614263899392" duration="1113000" />
+      <workItem from="1614269901849" duration="1689000" />
+      <workItem from="1614271718900" duration="737000" />
+      <workItem from="1614273639897" duration="1218000" />
+      <workItem from="1614402947594" duration="634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
